@@ -1,2 +1,9 @@
 # VRDAT
-Virtual Reality Development Acceleration Toolkit
+Virtual Reality Development Acceleration Toolkit, a project for Intro to Open Source at RPI.
+
+### Objective
+VRDAT aims to reduce the strain of VR development by recording movement with a VR HMD and playing it back for faster debugging. This reduces the need to put on / take off the HMD every time you want to debug something.
+
+### Tech
+Unity 5.5.2f1
+-SteamVR Plugin
