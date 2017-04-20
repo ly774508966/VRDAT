@@ -2,15 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Timestep : MonoBehaviour {
+public class Record : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public float timestep = 1.0f;
+    private float timer;
+    private bool recording;
+
+    void StartRecording() {
+        recording = true;
+    }
+
+    void FixedUpdate() {
+        timer += Time.deltaTime;
+    }
 }
