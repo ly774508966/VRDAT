@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System;
 using System.Text;
 using UnityEngine;
 
@@ -10,7 +11,7 @@ public class Playback : MonoBehaviour {
         try {
             StreamReader reader = new StreamReader(Logger.path, Encoding.Default);
             string line;
-            int counter;
+            int counter = 0;
 
             while (!reader.EndOfStream) {
                 line = reader.ReadLine();
@@ -18,11 +19,11 @@ public class Playback : MonoBehaviour {
             }
 
             reader.Close();
-            Console.Log("loaded " + counter + "lines of data");
+            Console.Write("loaded " + counter + "lines of data");
             return true;
         }
         catch (Exception e) {
-            Debug.Log("{0}\n", e.message);
+            Debug.Log("ERROR - PLAYBACK - ReadRecording" + e);
             return false;
         }
     }

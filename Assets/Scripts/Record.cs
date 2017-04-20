@@ -8,11 +8,24 @@ public class Record : MonoBehaviour {
     private float timer;
     private bool recording;
 
+    public GameObject leftController;
+    public GameObject rightController;
+    public GameObject head;
+
     void StartRecording() {
         recording = true;
+        Logger.OpenFile();
+    }
+
+    void StopRecording() {
+        recording = false;
     }
 
     void FixedUpdate() {
         timer += Time.deltaTime;
+    }
+
+    void FormatData(Tick leftHand, Tick rightHand, Tick head) {
+        
     }
 }
