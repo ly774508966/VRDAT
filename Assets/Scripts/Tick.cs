@@ -7,3 +7,4 @@ public class Tick : MonoBehaviour {
     private Vector3 rotation;
 
 }
+ 
