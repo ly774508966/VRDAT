@@ -8,7 +8,7 @@ VRDAT was planned to be a full input recording system for the HTC Vive in Unity,
 
 In conclusion, VRDAT was a decent idea in theory, but not entirely practical in reality. It would be more effecient for developers to create their own proprietary recording system that fits their needs specifically, rather than trying to generalize and consolidate all input recording into one general system.
 
-###Licensing
+### Licensing
 VRDAT is licensed under the MIT license, as it utilizes other technologies are stipulate similar licensing rights. 
 
 ### Tech
@@ -19,3 +19,4 @@ Unity 5.6
 -OSVR  
 -VRTK  
   
+VRDAT Attempted to consolidate multiple existing open-source projects into one input system.
