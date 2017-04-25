@@ -14,7 +14,8 @@ VRDAT is licensed under the MIT license, as it utilizes other technologies are s
 ### Tech
 Unity 5.6  
 -SteamVR Plugin  
--OpenVR
--NewtonVR
--OSVR
--VRTK
+-OpenVR  
+-NewtonVR  
+-OSVR  
+-VRTK  
+  
