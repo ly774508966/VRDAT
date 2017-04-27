@@ -335,7 +335,7 @@ public class InputInfo	// represents state of certain input in one frame. Has to
 	public InputInfo( InputInfo toCopy )
 	{
 		inputName = toCopy.inputName;
-		isAxis = toCopy.isAxis;
+		isAxis = toCopy.isAxis; 
 		
 		mouseButtonNum = toCopy.mouseButtonNum;
 		
