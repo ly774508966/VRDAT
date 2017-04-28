@@ -18,5 +18,6 @@ Unity 5.6
 -NewtonVR  
 -OSVR  
 -VRTK  
+-Some parts of InputVCR
   
 VRDAT Attempted to consolidate multiple existing open-source projects into one input system.
